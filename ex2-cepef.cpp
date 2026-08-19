@@ -23,6 +23,10 @@ int main()
     {
         cout << "O número é positivo." << endl;
     }
+    else if (numero < 0)
+    {
+        cout << "O número é negativo." << endl;
+    }
 
     return 0;
 }
