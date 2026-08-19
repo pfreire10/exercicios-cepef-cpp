@@ -15,7 +15,11 @@ int main()
 
     soma = numero1 + numero2;
 
+    diferenca = numero1 - numero2;
+
     cout << "A soma dos dois números é: " << soma << endl;
+
+    cout << "A diferença dos dois números é: " << diferenca << endl;
 
     return 0;
 }
