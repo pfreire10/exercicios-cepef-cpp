@@ -27,6 +27,10 @@ int main()
     {
         cout << "O número é negativo." << endl;
     }
+    else
+    {
+        cout << "O número é zero." << endl;
+    }
 
     return 0;
 }
