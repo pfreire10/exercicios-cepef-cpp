@@ -19,5 +19,10 @@ int main()
         cout << "O número é ímpar." << endl;
     }
 
+    if (numero > 0)
+    {
+        cout << "O número é positivo." << endl;
+    }
+
     return 0;
 }
