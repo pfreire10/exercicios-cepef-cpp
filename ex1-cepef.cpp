@@ -17,9 +17,13 @@ int main()
 
     diferenca = numero1 - numero2;
 
+    produto = numero1 * numero2;
+
     cout << "A soma dos dois números é: " << soma << endl;
 
     cout << "A diferença dos dois números é: " << diferenca << endl;
+
+    cout << "O produto dos dois números é: " << produto << endl;
 
     return 0;
 }
