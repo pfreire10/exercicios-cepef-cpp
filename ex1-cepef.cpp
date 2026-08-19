@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    double numero1, numero2, soma, diferenca, produto, media;
+    double numero1, numero2, soma, diferenca, produto, divisao, media;
 
     cout << "Digite  o primeiro número: ";
     cin >> numero1;
@@ -19,6 +19,8 @@ int main()
 
     produto = numero1 * numero2;
 
+    divisao = numero1 / numero2;
+
     media = (numero1 + numero2) / 2;
 
     cout << "A soma dos dois números é: " << soma << endl;
@@ -26,6 +28,8 @@ int main()
     cout << "A diferença dos dois números é: " << diferenca << endl;
 
     cout << "O produto dos dois números é: " << produto << endl;
+
+    cout << "A divisão dos dois números é: " << divisao << endl;
 
     cout << "A média dos dois números é: " << media << endl;
 
