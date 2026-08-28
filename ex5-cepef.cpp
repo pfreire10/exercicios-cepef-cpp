@@ -12,5 +12,15 @@ int main()
     cout << "Digite o segundo valor: ";
     cin >> n2;
 
+    if (n2 == 0)
+    {
+        cout << "O valor informado é zero! A divisão não pôde ser realizada!" << endl;
+    }
+    else
+    {
+        divisao = n1 / n2;
+        cout << "O resultado da divisão é: " << divisao << endl;
+    }
+
     return 0;
 }
