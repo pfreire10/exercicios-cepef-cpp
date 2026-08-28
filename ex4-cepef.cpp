@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// EXERCÍCIO 4 - MAIOR, MENOR OU IGUALDADE
+
 int main()
 {
 
@@ -9,6 +11,35 @@ int main()
     cout << "Digite três números inteiros: ";
     cin >> a >> b >> c;
 
+    // VERIFICAÇÃO DO MAIOR NÚMERO
+    if (a >= b && a >= c)
+    {
+        cout << "O maior número é: " << a << endl;
+    }
+    else if (b >= a && b >= c)
+    {
+        cout << "O maior número é: " << b << endl;
+    }
+    else
+    {
+        cout << "O maior número é: " << c << endl;
+    }
+
+    // VERIFICAÇÃO DO MENOR NÚMERO
+    if (a <= b && a <= c)
+    {
+        cout << "O menor número é: " << a << endl;
+    }
+    else if (b <= a && b <= c)
+    {
+        cout << "O menor número é: " << b << endl;
+    }
+    else
+    {
+        cout << "O menor número é: " << c << endl;
+    }
+
+    // VERIFICAÇÃO DE IGUALDADE
     if (a == b && b == c)
     {
         cout << "Os três números são iguais." << endl;
@@ -29,4 +60,6 @@ int main()
     {
         cout << "Todos os números são diferentes." << endl;
     }
+
+    return 0;
 }
