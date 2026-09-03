@@ -231,3 +231,16 @@ using namespace std;
 //
 //	return 0;
 //}
+
+// EX 7 - CALCULADORA COM SWITCH CASE
+int main()
+{
+
+    int opcao;
+
+    cout << "Escolha uma opção: " << endl;
+    cout << "1 - Somar" << endl;
+    cout << "2 - Subtrair" << endl;
+    cout << "3 - Multipicar" << endl;
+    cout << "4 - Dividir" << endl;
+}
