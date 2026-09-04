@@ -233,46 +233,106 @@ using namespace std;
 //}
 
 // EX 7 - CALCULADORA COM SWITCH CASE
-int main()
-{
+// int main()
+// {
 
-    int n1, n2, opcao;
+//     int n1, n2, opcao;
 
-    cout << "Calculadora com Switch Case!!" << endl;
-    cout << "Digite o primeiro número: ";
-    cin >> n1;
-    cout << "Digite o segundo número: ";
-    cin >> n2;
+//     cout << "Calculadora com Switch Case!!" << endl;
+//     cout << "Digite o primeiro número: ";
+//     cin >> n1;
+//     cout << "Digite o segundo número: ";
+//     cin >> n2;
 
-    cout << "Escolha uma opção: " << endl;
-    cout << "1 - Somar" << endl;
-    cout << "2 - Subtrair" << endl;
-    cout << "3 - Multipicar" << endl;
-    cout << "4 - Dividir" << endl;
-    cin >> opcao;
+//     cout << "Escolha uma opção: " << endl;
+//     cout << "1 - Somar" << endl;
+//     cout << "2 - Subtrair" << endl;
+//     cout << "3 - Multipicar" << endl;
+//     cout << "4 - Dividir" << endl;
+//     cin >> opcao;
 
-    switch (opcao)
-    {
-    case 1:
-        cout << "A soma dos números é: " << n1 + n2 << endl;
-        break;
-    case 2:
-        cout << "A subtração dos números é: " << n1 - n2 << endl;
-        break;
-    case 3:
-        cout << "A multiplicação dos números é: " << n1 * n2 << endl;
-        break;
-    case 4:
-        if (n2 == 0)
-        {
-            cout << "Não é possível dividir por zero!" << endl;
-        }
-        else
-        {
-            cout << "A divisão dos números é: " << n1 / n2 << endl;
-            break;
-        }
-    }
+//     switch (opcao)
+//     {
+//     case 1:
+//         cout << "A soma dos números é: " << n1 + n2 << endl;
+//         break;
+//     case 2:
+//         cout << "A subtração dos números é: " << n1 - n2 << endl;
+//         break;
+//     case 3:
+//         cout << "A multiplicação dos números é: " << n1 * n2 << endl;
+//         break;
+//     case 4:
+//         if (n2 == 0)
+//         {
+//             cout << "Não é possível dividir por zero!" << endl;
+//         }
+//         else
+//         {
+//             cout << "A divisão dos números é: " << n1 / n2 << endl;
+//             break;
+//         }
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+
+// // EX 8 DIAS DO MÊS
+// int main()
+// {
+
+//     int mes;
+
+//     cout << "Digite um mês, de 1 a 12: ";
+//     cin >> mes;
+
+//     switch (mes)
+//     {
+//     case 1:
+//         cout << "Janeiro" << endl;
+//         cout << "31 dias" << endl;
+//     case 3:
+//         cout << "Março" << endl;
+//         cout << "31 dias" << endl;
+//     case 5:
+//         cout << "Maio" << endl;
+//         cout << "31 dias" << endl;
+//     case 7:
+//         cout << "Julho" << endl;
+//         cout << "31 dias" << endl;
+//     case 8:
+//         cout << "Agosto" << endl;
+//         cout << "31 dias" << endl;
+//     case 10:
+//         cout << "Outubro" << endl;
+//         cout << "31 dias" << endl;
+//     case 12:
+//         cout << "Dezembro" << endl;
+//         cout << "31 dias" << endl;
+//         break;
+
+//     case 4:
+//         cout << "Abril" << endl;
+//         cout << "30 dias" << endl;
+//     case 6:
+//         cout << "Junho" << endl;
+//         cout << "30 dias" << endl;
+//     case 9:
+//         cout << "Setembro" << endl;
+//         cout << "30 dias" << endl;
+//     case 11:
+//         cout << "Novembro" << endl;
+//         cout << "30 dias" << endl;
+//         break;
+
+//     case 2:
+//         cout << "Fevereiro" << endl;
+//         cout << "28 dias" << endl;
+//         break;
+//     }
+
+//     return 0;
+// }
