@@ -239,9 +239,9 @@ int main()
     int n1, n2, opcao;
 
     cout << "Calculadora com Switch Case!!" << endl;
-    cout << 'Digite o primeiro número: ';
+    cout << "Digite o primeiro número: ";
     cin >> n1;
-    cout << 'Digite o segundo número: ';
+    cout << "Digite o segundo número: ";
     cin >> n2;
 
     cout << "Escolha uma opção: " << endl;
