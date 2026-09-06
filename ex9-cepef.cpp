@@ -22,36 +22,84 @@ int main()
         cout << "Digite a quantidade de Hamburguer: ";
         cin >> quantidade;
         precoUni = 18.00;
-        valorTotal = precoUni * quantidade;
-        cout << "Você comprou: " << quantidade << " Hamburguer(es) - Valor unitário: R$18,00 - Total: R$" << valorTotal << endl;
-        break;
+        if (quantidade <= 0)
+        {
+            cout << "Quantidade inválida." << endl;
+            break;
+        }
+        else
+        {
+            valorTotal = precoUni * quantidade;
+            cout << "Você comprou: " << quantidade << " Hamburguer(es) - Valor unitário: R$18,00 - Total: R$" << valorTotal << endl;
+            break;
+        }
+
     case 2:
         cout << "Digite a quantidade de Cachorro-quente: ";
         cin >> quantidade;
         precoUni = 12.00;
-        valorTotal = precoUni * quantidade;
-        cout << "Você comprou: " << quantidade << " Cachorro-quente(s) - Valor unitário: R$12,00 - Total: R$" << valorTotal << endl;
-        break;
+        if (quantidade <= 0)
+        {
+            cout << "Quantidade inválida." << endl;
+            break;
+        }
+        else
+        {
+            valorTotal = precoUni * quantidade;
+            cout << "Você comprou: " << quantidade << " Cachorro-quente(s) - Valor unitário: R$12,00 - Total: R$" << valorTotal << endl;
+            break;
+        }
+
     case 3:
         cout << "Digite a quantidade de Sanduíche natural: ";
         cin >> quantidade;
         precoUni = 15.00;
-        valorTotal = precoUni * quantidade;
-        cout << "Você comprou: " << quantidade << " Sanduíche(s) - Valor unitário: R$15,00 - Total: R$" << valorTotal << endl;
-        break;
+        if (quantidade <= 0)
+        {
+            cout << "Quantidade inválida." << endl;
+            break;
+        }
+        else
+        {
+            valorTotal = precoUni * quantidade;
+            cout << "Você comprou: " << quantidade << " Sanduíche(s) - Valor unitário: R$15,00 - Total: R$" << valorTotal << endl;
+            break;
+        }
+
     case 4:
         cout << "Digite a quantidade de Refrigerante: ";
         cin >> quantidade;
         precoUni = 6.00;
-        valorTotal = precoUni * quantidade;
-        cout << "Você comprou: " << quantidade << " Refrigerante(s) - Valor unitário: R$6,00 - Total: R$" << valorTotal << endl;
-        break;
+        if (quantidade <= 0)
+        {
+            cout << "Quantidade inválida." << endl;
+            break;
+        }
+        else
+        {
+            valorTotal = precoUni * quantidade;
+            cout << "Você comprou: " << quantidade << " Refrigerante(s) - Valor unitário: R$6,00 - Total: R$" << valorTotal << endl;
+            break;
+        }
+
     case 5:
         cout << "Digite a quantidade de Suco: ";
         cin >> quantidade;
         precoUni = 8.00;
-        valorTotal = precoUni * quantidade;
-        cout << "Você comprou: " << quantidade << " Suco(s) - Valor unitário: R$8,00 - Total: R$" << valorTotal << endl;
-        break;
+        if (quantidade <= 0)
+        {
+            cout << "Quantidade inválida." << endl;
+            break;
+        }
+        else
+        {
+            valorTotal = precoUni * quantidade;
+            cout << "Você comprou: " << quantidade << " Suco(s) - Valor unitário: R$8,00 - Total: R$" << valorTotal << endl;
+            break;
+        }
+
+    default:
+        cout << "Opção inválida." << endl;
     }
+    return 0;
 }
