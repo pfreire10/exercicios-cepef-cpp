@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// EX 11 - VALIDAÇÃO DE NOTA
 int main()
 {
     double nota;
